@@ -1,8 +1,8 @@
 start
 new x number
-set x 7
+set x 8
 new const number
-set const 3
+set const 2
 log string const >> " ' = " >> 0
 log string "x' = " >> 1
 log string const >> "* x = " >> const
