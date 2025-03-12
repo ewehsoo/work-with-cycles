@@ -10,6 +10,6 @@ log string "(x^2)' = 2x ="  >> x+x
 log string "(sin" >> x >> ")'=" >> "cos" >> x
 log string "(cos" >> x >> ")'=" >> "-sin" >> x
 new b number 
-set b x+x+x+x+x+x+x
+set b x+x+x+x+x+x+x+x
 log string "(x^3)' = 3x^2 ="  >> b+b+b
 finish
